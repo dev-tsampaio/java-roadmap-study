@@ -1,18 +1,43 @@
-## Getting Started
+🔐 Sistema de Login em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um sistema simples de autenticação feito em Java que simula um terminal de login com limite de tentativas para acessar o sistema.
 
-## Folder Structure
+🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+Solicita a senha do usuário.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Concede acesso se a senha estiver correta.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Bloqueia o acesso após 3 tentativas incorretas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Exibe mensagens claras de erro e sucesso no terminal.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🖥️ Exemplo de execução
+
+# Seja bem vindo à #
+# SAMPAIO TECNOLOGIA #
+
+Digite a senha para acessar o sistema: 12345
+ERRO: Você digitou a senha incorreta!
+Você tem (2) restantes.
+
+Digite a senha para acessar o sistema: sampaioTecnologia2025
+Você acessou o terminal!
+
+
+📖 Conceitos aplicados
+
+Estruturas de repetição (while)
+
+Estruturas condicionais (if/else)
+
+Manipulação de Strings em Java
+
+Entrada de dados do usuário via terminal
+
+Controle de tentativas e validação de senha
+
+👨‍💻 Autor
+
+Desenvolvido por Thales Sampaio.
